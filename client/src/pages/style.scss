@@ -1,0 +1,153 @@
+
+.error {
+  color: red;
+}
+
+.title {
+  font-family: cursive, serif;
+  font-size: 36px;
+}
+
+.SignUpForm, .SignInForm, .user-list {
+  position: absolute;
+  color: black;
+  background-color: antiquewhite;
+  opacity: 0.8;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  width: 350px;
+  min-width: 350px;
+  height: 620px;
+  min-height: 620px;
+  border: darkgoldenrod solid 10px;
+  border-bottom-left-radius: 30%;
+  border-top-right-radius: 30%;
+  padding: 50px;
+  justify-content: left;
+}
+
+.user-login, .user-password {
+  border: darkgoldenrod solid 3px;
+  font-size: 14px;
+  margin: 20px;
+  width: 300px;
+  padding: 10px;
+  cursor: pointer;
+  transform: scale(100%);
+  transition-duration: 1s;
+}
+
+.sign-up-btn, .sign-in-btn {
+  width: 270px;
+  font-size: 14px;
+  border: darkgoldenrod solid 3px;
+  background-color: transparent;
+  border-radius: 10%;
+  padding: 10px;
+  margin-top: 100px;
+  transform: scale(100%);
+  transition-duration: 1s;
+}
+
+.user-login:hover, .user-password:hover {
+  transform: scale(110%);
+  transition-duration: 1s;
+}
+
+.sign-up-btn:hover, .sign-in-btn:hover {
+  background-color: black;
+  opacity: 0.8;
+  transform: scale(120%);
+  transition-duration: 1s;
+  color: cornflowerblue;
+  border: cornflowerblue solid 3px;
+}
+
+.link {
+  color: cornflowerblue;
+  font-family: cursive;
+  cursor: pointer;
+}
+
+li {
+  list-style: none
+}
+
+.input-element {
+  padding: 15px;
+}
+
+.field {
+  width: 150px;
+
+}
+
+.field:hover {
+  border: solid 2px cornflowerblue;
+}
+
+label {
+  margin-right: 20px;
+}
+
+.submit-info {
+  width: 250px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10%;
+  background-color: black;
+  color: blanchedalmond;
+  font-size: 14px;
+  transition-duration: 1s;
+  transform: scale(100%);
+}
+
+.submit-info:hover {
+  transition-duration: 1s;
+  transform: scale(120%);
+  border: solid 2px cornflowerblue;
+  color: cornflowerblue;
+}
+
+.delete-item, .save-item {
+  width: 100px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10%;
+  background-color: black;
+  color: red;
+  font-size: 14px;
+  transition-duration: 1s;
+  transform: scale(100%);
+}
+
+.save-item {
+  color: blanchedalmond;
+  width: 230px;
+  margin-top: 20px;
+}
+
+.delete-item:hover, .save-item:hover {
+  transition-duration: 1s;
+  transform: scale(120%);
+  border: solid 2px cornflowerblue;
+  color: cornflowerblue;
+}
+
+.list {
+  text-align: left;
+}
+
+.newItem {
+  width: 100%;
+  font-size: 14px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.newItem:hover {
+  border: solid 2px cornflowerblue;
+  color: cornflowerblue;
+}
